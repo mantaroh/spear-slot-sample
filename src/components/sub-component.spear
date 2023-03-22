@@ -1,0 +1,3 @@
+<div>
+  <slot name="sub">Fallback of sub-component.</slot>
+</div>

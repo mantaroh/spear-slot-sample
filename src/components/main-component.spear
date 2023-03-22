@@ -1,0 +1,12 @@
+<div>
+  <sub-component>
+    <slot name="main">
+      <p slot="sub">Fallback of main-component</p>
+    </slot>
+    <article>
+      <slot name="main-article">
+        <p slot="sub">Fallback of main-component's article area</p>
+      </slot>
+    </article>
+  </sub-component>
+</div>
